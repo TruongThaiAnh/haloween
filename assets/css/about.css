@@ -1,0 +1,27 @@
+.test1{
+    display: flex;
+    margin: 50px 150px;
+}
+.test3 {
+   height: 20px;
+   width: 600px;
+   margin-top: 100px;
+   margin-left: 40px;
+   
+}
+.test__img{
+    width: 300px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 46.1875em){
+    .test1{
+        display: none;
+    }
+    .about__img{
+        margin-bottom: 50px;
+    }
+}
+
+   
+

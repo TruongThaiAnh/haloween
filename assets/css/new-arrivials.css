@@ -1,0 +1,96 @@
+.table img{
+    width: 800px;
+    height: 500px;
+    transition: .3s;
+}
+.table{
+    cursor: pointer;
+}
+
+.table2{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+.table2 h3 { 
+    font-size: 50px;
+    font-weight: 200;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.247);
+}
+.table__prices{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.247) ;
+    padding: 10px 50px;
+}
+.table__discount  {
+    color: rgb(167, 54, 54);
+    font-size: 25px;
+    text-decoration: line-through;
+    font-weight: 200;
+    margin-left: 30px;
+ 
+}
+.table__price {
+    color: rgb(228, 209, 209);
+    font-size: 30px;
+    font-weight: 200;
+    
+}
+.table1{
+    padding-right: 20px;
+}
+.table2 button{
+    height: 60px;
+    width: 350px; 
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #f4511f;
+    color: white;
+    transition: 0.4s;
+}
+.table2 button span{
+    font-size: 22px;
+    font-family:sans-serif;
+} 
+.table__text{
+    height: 100px;
+    width: 500px;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    margin: 30px 0;
+   
+}
+.text{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.247) ;
+    margin-right: 20px;
+}
+.table2 button:hover{
+    background-color: white;
+    color:#f4511f ;
+}
+@media screen and (min-width: 992px){
+    .col{
+        display: flex;
+    }
+    .table2 button{
+        margin: 20px 70px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .table2{
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width: 767px){
+    .table2{
+        margin-left: 100px;
+    }
+}
